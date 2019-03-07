@@ -32,10 +32,10 @@ you can setup ruby on rails following this url: https://gorails.com/setup/ubuntu
  1. rails g task my_namespace my_task
  2. create lib/tasks/my_namespace.rake
  3. In lib/tasks/my_namespace.rake
-   namespace :my_namespace do
+   <pre>namespace :my_namespace do
       desc "TODO"
       task :my_task => :environment do
       //your code here
       end
-    end
+    end</pre>
  4. run "rake my_namespace:my_task" to execute
