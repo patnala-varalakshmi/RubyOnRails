@@ -7,7 +7,7 @@ you can setup ruby on rails following this url: https://gorails.com/setup/ubuntu
 
   On Terminal
   1. rails new appname --database=postgresql
-  Note: specify database option if you want particular.
+  <Note: specify database option if you want particular.>
   2. cd appname
   3. rails db:create
   4. rails s
