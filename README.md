@@ -14,7 +14,8 @@ you can setup ruby on rails following this url: https://gorails.com/setup/ubuntu
   5. run localhost:3000 in ur browser
   "Yay! You’re on Rails!" If you are seeing this message on your browser, You have successfully installed Ruby on Rails.
   
-# B. Deployment with heroku (You can't deploy into heroku if you are using sqlite3 why? check https://devcenter.heroku.com/articles/getting-started-with-rails5#local-setup ) 
+# B. Deployment with heroku 
+(You can't deploy into heroku if you are using sqlite3 why? check https://devcenter.heroku.com/articles/getting-started-with-rails5#local-setup ) 
 
   On Terminal first add your git repository and complete heroku setup using this link: https://devcenter.heroku.com/articles/getting-started-with-rails5
 
