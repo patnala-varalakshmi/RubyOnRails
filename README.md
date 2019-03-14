@@ -7,7 +7,7 @@ you can setup ruby on rails following this url: https://gorails.com/setup/ubuntu
 
   On Terminal
   1. rails new appname --database=postgresql
-  Note: specify database option if you want particular.
+  <Note: specify database option if you want particular.>
   2. cd appname
   3. rails db:create
   4. rails s
@@ -29,13 +29,13 @@ you can setup ruby on rails following this url: https://gorails.com/setup/ubuntu
 
  # C. Creating rake tasks
 
- $ rails g task my_namespace my_task
- $ create lib/tasks/my_namespace.rake
- In lib/tasks/my_namespace.rake
-   namespace :my_namespace do
+ 1. rails g task my_namespace my_task
+ 2. create lib/tasks/my_namespace.rake
+ 3. In lib/tasks/my_namespace.rake
+   <pre>namespace :my_namespace do
       desc "TODO"
       task :my_task => :environment do
       //your code here
       end
-    end
- $ run "rake my_namespace:my_task" to execute
+    end</pre>
+ 4. run "rake my_namespace:my_task" to execute
