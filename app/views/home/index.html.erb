@@ -1,7 +1,11 @@
 <h2>Welcome to Rails App</h2>
+<a href="#" onclick="return clickHandler()">Click to send the data.</a>
 
 <script type="text/javascript">
   $( document ).ready(function() {
     mixpanel.track("Video play");
   });
+  function clickHandler(){
+    mixpanel.track("Video play");
+  }
 </script>
